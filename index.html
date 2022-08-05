@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-    <header>
-<!-- Navbar srart  -->
-        <div class="container mt-3">
-            <nav class="navbar navbar-expand-lg bg-white">
+    <header class="mb-5">
+  <!-- Navbar srart  -->
+        <div class="container mt-3 ">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top mx-5">
                 <div class="container-fluid">
                   <a class="navbar-brand fw-bold" href="#">Up Your Level</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0 ">
                       <li class="nav-item mx-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Courses</a>
+                        <a class="nav-link" href="#Courses">Courses</a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Deals</a>
+                        <a class="nav-link" href="#Deals">Deals</a>
                       </li>
                       <li class="nav-item mx-3">
                         <a class="nav-link">Success</a>
@@ -54,17 +54,17 @@
                 </div>
               </nav>
         </div>
-<!-- Navbar End  -->
+  <!-- Navbar End  -->
 
-<!-- Carousel Start  -->
-        <div class="container">
+  <!-- Carousel Start  -->
+        <div class="container" id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block img-fluid opacity-50" alt="...">
-                        <div class="carousel-caption d-md-block mb-5">
-                            <h2 class="fw-bold">Get Started Digital Learning</h2>
-                            <p class="">Virtual learning refers to learning through computers and the internet, inside as well as outside the facilities provided by the educational organization.</p>
+                        <div class="carousel-caption d-md-block mb-5 ">
+                            <h2 class="fw-bold w-auto h-auto">Get Started Digital Learning</h2>
+                            <p class="w-auto h-auto">Virtual learning refers to learning through computers and the internet, inside as well as outside the facilities provided by the educational organization.</p>
                             <button class="btn btn-primary fw-semibold">Get Started</button>
                         </div>
                     </div>
@@ -79,11 +79,228 @@
                 </button>
             </div>
         </div>
-<!-- Carousel End  -->
+  <!-- Carousel End  -->
     </header>
 
-    
-<!-- JS Script  -->
+  <main>
+  <!-- Courses Start  -->
+    <Section class="container pt-5 mb-5" id="Courses">
+      <div class="">
+        <div class="mx-5 ">
+          <h2 class="text-center">Visit Our All Courses</h2>
+          <p class="text-center">Learn something new today! UniversalClass offers hundreds of online CE classes. Our courses are not just tutorials; they are real.</p>
+        </div>
+  <!-- Course Information Start  -->
+  <div class="container overflow-hidden my-5">
+    <div class="row gy-5">
+      <!-- 1st Course -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="border bg-light rounded d-flex">
+          <img class="img-fluid " src="images/course/course-1.png" alt="">
+          <div class="mx-5 pt-5 lh-1 ">
+            <h5 class="fw-bold text-success">Fundamental Of UI/UX Design</h5>
+            <p><small>A full-stack developer is someone who can develop a website and a web application from start to finish.</small></p>
+            <p class="fw-bold text-info">Price: $20</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2nd Course -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="border bg-light rounded d-flex">
+          <img class="img-fluid" src="images/course/course-2.png" alt="">
+          <div class="mx-5 pt-5 lh-1">
+            <h5 class="fw-bold text-success">Javascript Basic to advanced</h5>
+            <p> <small>At the beginning of this JavaScript course, you will learn and understand All the basic concepts of JavaScript.</small></p>
+            <p class="fw-bold text-info">Price: $35</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd Course  -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="border bg-light rounded d-flex">
+          <img class="img-fluid" src="images/course/course-3.png" alt="">
+          <div class="mx-5 pt-5 lh-1">
+            <h5 class="fw-bold text-success">Fullstack Web Development</h5>
+            <p><small>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS.</small></p>
+            <p class="fw-bold text-info">Price: $35</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4th Coourse  -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="border bg-light rounded d-flex">
+          <img class="img-fluid" src="images/course/course-4.png" alt="">
+          <div class="mx-5 pt-5 lh-1">
+            <h5 class="fw-bold text-success">Digital Marketing</h5>
+            <p><small>Digital marketing is the promotion of brands to connect with potential customers using the internet of digital communication.</small></p>
+            <p class="fw-bold text-info">Price: $30</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5th Course -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="border bg-light rounded d-flex">
+          <img class="img-fluid" src="images/course/course-5.png" alt="">
+          <div class="mx-5 pt-5 lh-1">
+            <h5 class="fw-bold text-success">Photography Basic Rules</h5>
+            <p><small>You don't have to hire a professional photographer each time you want to have your picture taken. Learning the basics of photography will allow you to capture important moments.</small></p>
+            <p class="fw-bold text-info">Price: $30</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6th Course -->
+      <div class="col-lg-6 col-md-12 col-12">
+        <div class="border bg-light rounded d-flex col-12">
+          <img class="img-fluid" src="images/course/course-6.png" alt="">
+          <div class="mx-5 pt-5 lh-1">
+            <h5 class="fw-bold text-success">Motion Graphics</h5>
+            <p><small>While learning how to use the required software, you should start building a visual library of photos, videos, GIF animations, artwork, patterns, music and other visual elements.</small></p>
+            <p class="fw-bold text-info">Price: $30</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Course Information End  -->
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="button">See More Courses</button>
+      </div>
+      </div>
+    </Section>
+  <!-- Courses End  -->
+
+  <!-- Register Section Start -->
+    <section class="container my-5 h-auto" id="Deals">
+      <div class="bg-info bg-opacity-75 d-flex justify-content-center p-5 align-items-center justify-content-between row row-cols-1 row-cols-md-1 row-cols-lg-2">
+        <div class="p-5">
+          <h3 class="text-white fw-bold ">Ready to join?</h3>
+          <p class="text-white "><small>Get unlimited access to over 90% of courses, Projects, Specializations, and Professional Certificates on Coursera, taught by top instructors from leading universities and companies.</small></p>
+        </div>
+        <div>
+          <button class="btn btn-outline-primary rounded-3 fw-semibold bg-white px-5 py-2 border-0 mx-5" type="submit">Register</button>
+        </div>
+      </div>
+    </section>
+  <!-- Register Section End -->
+
+  <!-- Successfull Student Start -->
+    <section class="container">
+      <div class="">
+        <div class="w-auto  mt-5">
+          <h2>Meet Our Successfull Student</h2>
+          <p>Always remember successful students or scholars who achieve success in life manage their time and schedule their days in advance to be more efficient and to manage their studies and enjoy other activities as well.</p>
+        </div>
+
+        <div class="my-5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <!-- 1st Student  -->
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-1.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title lh-1">Awlad Hossain</h5>
+                  <p class="card-text"><small>UIUX Designer</small></p>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd Student -->
+            <div class="col">
+              <div class="card shadow-lg">
+                <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                <div class="card-body lh-1">
+                  <h5 class="card-title">Jannatul Islam</h5>
+                  <p class="card-text"><small>Motion Design</small></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3rd Student -->
+            <div class="col">
+              <div class="card shadow-lg">
+                <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                <div class="card-body lh-1">
+                  <h5 class="card-title">Imran Hossain</h5>
+                  <p class="card-text"><small>Graphic Designer</small></p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  <!-- Successfull Student End -->
+
+  <!-- Accordion Start  -->
+    <section>
+      <div class="container my-5">
+        <div class="accordion" id="accordionExample">
+          <!-- 1st Item  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                what is the difference between flex and grid?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd Item  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                what is the difference between bootstrap and tailwind?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Bootstrap as "Simple and flexible HTML, CSS, and JS for popular UI components and interactions". Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as "A utility-first CSS framework for rapid UI development". Tailwind is different from frameworks like Bootstrap, Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and there are no build-in UI components. It comes with a menu of predesigned widgets to build your site with, but doesn't impose design decisions that are difficult to undo.</p>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd Item  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                what is css box model?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+              </div>
+            </div>
+          </div>
+          <!-- 4th Item  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                what is semantic tag?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Examples of semantic elements: <form> , <table> , and <article> - Clearly defines its content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Accordion End  -->
+
+  </main>
+  <!-- JS Script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
